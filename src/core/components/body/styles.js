@@ -5,7 +5,7 @@ export const Container = styled.body`
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
 `;
 
 export const Content = styled.div`
@@ -17,5 +17,7 @@ export const Content = styled.div`
 
     @media screen and (max-width: 600px){
         width: 94vw;
+        height: 90vh;
+        background-color: transparent;
     }
 `;
